@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+    <style>
+        h1{
+            color:deeppink;
+            background-color:darksalmon;
+        }
+        input[type=submit] {
+            color: deeppink;
+            font-size: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: darksalmon;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>Isi Form Ini Untuk Jadi Temanku</h1>
+    <!-- 
+        tag form digunakan untuk membuat formuluir
+        action untuk tujuan proses data selanjutnya
+        method adalah jenis prosesnya (post/get)
+     -->
+    <Form action="/proses data_data.php" method="post">
+
+         <table>
+            <tr>
+                <td><label for="nama">Nama Lengkap</label></td>
+                <td>:</td>
+                <td><input type="text" name="nama" id="email" required placeholder="Nama Lengkap"></td>
+                <td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td>:</td>
+                 <td><input type="password" name="password" id="password" readonly placeholder="Password"></td>
+                <td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td>:</td>
+                <td><input type="email" name="email" id="email" required placeholder="email"></td>
+            </tr>
+            <tr>
+                <td><label for="jenis_kelamin">Jenis Kelamin</label></td>
+                <td>:</td>
+                <td ><input type="radio" name="jenis_kelamin" id="jenis_kelamin" value="jenis_kelamin">Perempuan
+                    <input type="radio" name="jenis_kelamin" id="jenis_kelamin" value="jenis_kelamin">Laki-laki</td>
+            </tr>
+            <tr>
+                <td><label for="asal_kota">Asal Kota</label></td>
+                <td>:</td>
+                <td><select name="asal_kota" id="asal_kota">
+                    <option value=""> --Pilih-- </option>
+                    <option value="Banyumas">Banyumas</option>
+                    <option value="Cilacap">Cilacap</option>
+                    <option value="Banjarnegara">Banjarnegara</option>
+                    <option value="Wonosobo">Wonosobo</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="hobi">Hobi</label></td>
+                <td>:</td>
+                <td><input type="checkbox" name="hobi" id="hobi" value="Membaca">Membaca
+                    <input type="checkbox" name="hobi" id="hobi" value="Membaca">Menulis
+                    <input type="checkbox" name="hobi" id="hobi" value="Membaca">Scroll ig
+                    <input type="checkbox" name="hobi" id="hobi" value="Membaca">Scroll tiktok</td>
+            </tr>
+            <tr>
+                <td><label for="alamat">Alamat</label></td>
+                <td>:</td>
+                <td><textarea name="alamat" id="alamat" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                   <center><input type="submit" name="" id="" value="SUBMIT"></center>
+                </td>
+            </tr>
+
+         </table>
+
+    </Form>
+</center>
+</body>
+</html>
