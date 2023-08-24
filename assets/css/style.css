@@ -1,0 +1,45 @@
+h3 {
+    color: coral;
+}
+a{
+    color: crimson;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    padding: 10px;
+    margin: 15px;
+}
+h1{
+    color:deeppink;
+    background-color:darksalmon;
+}
+input[type=submit] {
+    color: deeppink;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darksalmon;
+    border-radius: 10px;
+}
+
+.sosmed{
+    background-color: aliceblue;
+    margin-top: 1rem;
+    width: auto;
+}
+
+.hobi{
+    color: coral;
+}
+
+#title {
+    color: darksalmon;
+    background-color: crimson;
+}
+#title::first-letter{
+    color: blueviolet;
+    font-size: 40px;
+}
+
+.formulir:hover{
+    font-size: larger;
+    color:aliceblue;
+}
